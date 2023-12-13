@@ -1,0 +1,182 @@
+.cart-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cart-container {
+  min-height: 60vh;
+  margin-top: 40px;
+  padding: 50px 0;
+  width: 70%;
+  height: 85%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #1687d933;
+}
+
+.cart-header {
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2f3841;
+}
+
+.cart-action {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e44c4c;
+  cursor: pointer;
+  border-bottom: 1px solid #e44c4c;
+}
+
+.cart-item {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item-image {
+  height: 120px;
+}
+
+.title {
+  padding-top: 5px;
+  line-height: 10px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #202020;
+}
+
+.subtitle {
+  line-height: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #909090;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: #202020;
+  cursor: pointer;
+}
+
+.count {
+  font-size: 20px;
+
+  font-weight: 900;
+  color: #202020;
+}
+
+.image-box {
+  width: 20%;
+  text-align: center;
+}
+
+.cart-about {
+  width: 45%;
+  height: 100%;
+}
+
+.counter {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prices {
+  width: 20%;
+  height: 100%;
+  text-align: right;
+}
+
+.amount {
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #202020;
+}
+
+.save {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1687d9;
+  cursor: pointer;
+}
+
+.remove {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e44c4c;
+  cursor: pointer;
+}
+
+.checkout {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid;
+  float: right;
+  margin-right: 5%;
+  width: 28%;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtotal {
+  font-size: 22px;
+  font-weight: 700;
+  color: #202020;
+}
+
+.items {
+  font-size: 16px;
+  font-weight: 500;
+  color: #909090;
+  line-height: 10px;
+}
+
+.total-amount {
+  font-size: 36px;
+  font-weight: 900;
+  color: #202020;
+}
+
+.button{
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.button:hover{
+  cursor: pointer;
+  background: rgb(12, 72, 42);
+}
+
+.submit{
+  width: 100%;
+  border-radius: 5px;
+}

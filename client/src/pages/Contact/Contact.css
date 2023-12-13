@@ -1,0 +1,101 @@
+body {
+  font-family: 'Unna', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  display: flex;
+  margin: 50px 120px 120px 120px;
+}
+
+.contact div:nth-child(1) {
+  width: 50%;
+  border-right: 1px solid rgba(30, 109, 71, 0.255);
+}
+
+.contact h1 {
+  font-size: 64px;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.contact h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.contact h6 {
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 5px 10px;
+}
+
+.contact p {
+  font-weight: 600;
+}
+
+.contact>div>div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.contact img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact>div:nth-child(2) {
+  margin-left: 80px;
+}
+
+.contact form label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  background: rgb(30, 109, 71);
+  color: #fff;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 2px;
+  text-align: center;
+  border: none;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.formStyle input {
+  width: 300px;
+}
+
+textarea {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.contact-links {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}
+
+.contact-admin{
+  background-color: rgba(189, 215, 202, 0.252);
+  min-height: 100%;
+}

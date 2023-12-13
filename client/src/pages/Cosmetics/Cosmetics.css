@@ -1,0 +1,67 @@
+
+.cosmetics_products_background {
+  background-color: rgba(189, 215, 202, 0.252);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cosmetics_products {
+  padding: 60px 0;
+  margin: 0 60px;
+  background-color: #fff;
+  /* text-align: center; */
+}
+
+.cosmetics_products_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products_title h2 {
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.products_title a {
+  background-color: rgb(30, 109, 71);
+  color: #fff;
+  margin-top: 20px;
+}
+
+.product img {
+  height: 70%;
+  width: 100%;
+}
+
+.width {
+  width: 25% !important;
+  height: 530px !important;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pagination span {
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.pagination span:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,133 @@
+body {
+  font-family: 'Unna', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  margin: 50px 120px;
+}
+
+.about_text {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.about_text div:nth-child(1) {
+  width: 33%;
+}
+
+.about_text h1 {
+  font-size: 68px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.about_text h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.about_text p {
+  width: 700px;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.about_text p:nth-child(1) {
+  color: rgb(30, 109, 71);
+  margin-top: 35px;
+}
+
+.about img {
+  width: 100%;
+}
+
+.our_story {
+  display: flex;
+  margin: 50px 120px;
+}
+
+.our_story div:nth-child(1) {
+  width: 35%;
+}
+
+.our_story h3 {
+  font-size: 18px;
+  opacity: 0.7;
+  font-weight: 100;
+}
+
+.our_story p {
+  width: 670px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.reviewBlock {
+  font-size: 20px;
+}
+
+.reviewBlock p {
+  font-size: 16px;
+  font-style: oblique;
+  margin: 0;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.reviewBlock p:nth-child(3) {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.reviewBlock img {
+  width: 7%;
+  border-radius: 100%;
+}
+
+.reviewBlock:before {
+  content: '\201C';
+  font-size: 50px;
+  color: rgb(30, 109, 71);
+}
+
+.reviewFounders {
+  display: flex;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.founder {
+  display: flex;
+  width: 300px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.founderImage {
+  width: 40px !important;
+  margin-right: 20px;
+}
+
+.founder p:nth-child(2) {
+  font-size: 14px;
+  font-style: normal;
+  opacity: 0.7;
+}
+
+.gallery {
+  display: flex;
+  margin: 100px 120px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  margin-bottom: 30px;
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+}

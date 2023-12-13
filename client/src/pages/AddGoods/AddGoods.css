@@ -1,0 +1,83 @@
+.formAddGoods{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .addButton {
+    max-width: 300px;
+    width: 100%;
+    background: #000;
+    border-radius: 0;
+    min-height: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .product {
+    border-radius: 15px;
+    width: 100px;
+    height: 350px;
+    margin: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.inputs{
+    margin-top: 30px;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+.fileInputWrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .fileInputButton {
+    display: inline-block;
+    padding: 5px 40px;
+    background-color: rgb(30, 109, 71);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
